@@ -1,0 +1,49 @@
+proxies:
+- name: Uninet | 28 Juli
+  type: vmess
+  server: 104.26.4.10
+  port: 443
+  uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: id-uninet3.bypass.id
+  network: ws
+  ws-opts:
+    path: "/fastssh/pre_1497673416/Mtharyono11/"
+    headers:
+      Host: id-uninet3.bypass.id
+- name: Sanggoro | 28 Juli
+  type: vmess
+  server: 104.26.4.10
+  port: 443
+  uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: id-sanggoro2.bypass.id
+  network: ws
+  ws-opts:
+    path: "/fastssh/pre_1497673416/Mtharyono11/"
+    headers:
+      Host: id-sanggoro2.bypass.id
+- name: Athamedia | 28 Juli
+  type: vmess
+  server: 104.26.4.10
+  port: 443
+  uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: id-atha2.bypass.id
+  network: ws
+  ws-opts:
+    path: "/fastssh/pre_1497673416/Mtharyono11/"
+    headers:
+      Host: id-atha2.bypass.id

@@ -1,0 +1,49 @@
+proxies:
+- name: HE | 28 Juli
+  type: vmess
+  server: 104.26.4.10
+  port: 443
+  uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: sg-v2ray-ws.bypass.id
+  network: ws
+  ws-opts:
+    path: "/fastssh/pre_1497673416/Mtharyono11/"
+    headers:
+      Host: sg-v2ray-ws.bypass.id
+- name: CTB | 28 Juli
+  type: vmess
+  server: 104.26.4.10
+  port: 443
+  uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: v2ray-contabo.bypass.id
+  network: ws
+  ws-opts:
+    path: "/fastssh/pre_1497673416/Mtharyono11/"
+    headers:
+      Host: v2ray-contabo.bypass.id
+- name: SG.GS | 28 Juli
+  type: vmess
+  server: 104.26.4.10
+  port: 8443
+  uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: sggs.bypass.id
+  network: ws
+  ws-opts:
+    path: "/fastssh/pre_1497673416/Mtharyono11/"
+    headers:
+      Host: sggs.bypass.id
